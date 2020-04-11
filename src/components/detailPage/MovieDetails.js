@@ -39,7 +39,7 @@ export default class MovieDetails extends React.Component {
                     <div className={"col-9"}>
                         <br/>
                         {this.state.moreInfo && this.state.moreInfo.results && this.state.moreInfo.results[0] &&
-                        <iframe src={`http://www.youtube.com/embed/${this.state.moreInfo.results[0].key}`}
+                        <iframe src={`https://www.youtube.com/embed/${this.state.moreInfo.results[0].key}`}
                                 width="800" height="500" frameBorder="0" allowFullScreen/>
                         }
                         <NewPost
