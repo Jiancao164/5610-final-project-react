@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+  height: 500px
+}
+
+.douban {
+  height: 40px
+}
+.post {
+  height: 380px;
+}
+.backdrop {
+  height: 150px;
+}
+.thumbnail {
+  padding-right: 10px;
+  height: 55px;
+}
+.thumbnail-na {
+  padding-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+.card {
+  /*padding: 30px;*/
+}
+.thumbnail-post {
+  width: 170px;
+  height: 250px;
+}
+.douban-profile {
+  height: 70px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+textarea {
+  margin: 25px;
+  padding: 10px;
+}
+.pst {
+  margin-right: 25px;
+}
+.reviewed-post {
+  height: 80px;
+  width: 60px;
+}
+.fa-user {
+  padding: 5px;
+}
+.timestamp {
+  color: gray;
+}
+.fa-times {
+  cursor: pointer;
+  padding: 5px;
+}
+.profile-photo {
+  padding: 10px;
+  height: 130px;
+  width: 130px;
+}
+.anonymous-reviewed{
+  padding: 25px;
+  height: 260px;
+  width: 190px;
+}
+.now-playing {
+  color: sandybrown;
+}
