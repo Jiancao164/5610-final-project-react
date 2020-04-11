@@ -34,10 +34,8 @@ export default class AnonymousReview extends Component{
                                     <AnonymousEachReviewedMovie key={review.movieId} mid={review.movieId} review={review}/>
                                 </div>
                                 <div>
-                                    <p>
                                         <br/>
                                         {review.review}
-                                    </p>
                                 </div>
                             </div>
                         </div>
