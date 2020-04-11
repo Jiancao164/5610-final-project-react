@@ -1,9 +1,5 @@
 import React, {Component} from 'react'
-import {profile} from "../services/UserService";
 import {findReviewsByUser} from "../services/ReviewService";
-import ReviewedMovie from "../homePage/ReviewedMovie";
-import {Link} from "react-router-dom";
-import EachReviewedMovie from "../homePage/EachReviewedMovie";
 import AnonymousEachReviewedMovie from "./AnonymousEachReviewedMovie";
 
 export default class AnonymousReview extends Component{
