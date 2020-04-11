@@ -32,6 +32,9 @@ class AnonymousEachReviewedMovie extends Component{
                     {!this.state.movie.poster_path && <img className={"card-img-top thumbnail-post anonymous-reviewed"} src={!this.state.movie.poster_path && `https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-38-picture-grey-c2ebdbb057f2a7614185931650f8cee23fa137b93812ccb132b9df511df1cfac.svg`}/>}
                     {this.state.movie.poster_path && <img className={"card-img-top thumbnail-post anonymous-reviewed"} src={this.state.movie.poster_path && `https://image.tmdb.org/t/p/w500${this.state.movie.poster_path}`}/>}
                 </Link>
+                <p>
+                    {this.props.review}
+                </p>
                 {/*<div className="card-title col-sm-4">*/}
                     {/*<div className="card-body">*/}
                         {/*<div>*/}
