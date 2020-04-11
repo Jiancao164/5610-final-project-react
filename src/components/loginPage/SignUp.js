@@ -11,7 +11,7 @@ export default class SignUp extends Component{
             verifyPassword: '',
             email: '',
             phone: '',
-            role: ''
+            role: 'USER'
         }
 
     }
