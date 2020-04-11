@@ -34,7 +34,7 @@ class AnonymousEachReviewedMovie extends Component{
                         {this.state.movie.poster_path && <img className={"card-img-top thumbnail-post anonymous-reviewed"} src={this.state.movie.poster_path && `https://image.tmdb.org/t/p/w500${this.state.movie.poster_path}`}/>}
                     </Link>
                 </div>
-                <div>
+                <div className={"col-9"}>
                     <p>
                         {this.props.review}
                     </p>
