@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b01a383f-084a-4747-aeb4-62c297c74ab5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/anonymousPage/AnonymousReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anonymousPage/AnonymousReview.js" afterDir="false" />
-    </list>
+    <list default="true" id="b01a383f-084a-4747-aeb4-62c297c74ab5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,12 +309,12 @@
       <option name="presentableId" value="Default" />
       <updated>1586630621592</updated>
       <workItem from="1586630623156" duration="3081000" />
-      <workItem from="1586637636074" duration="950000" />
+      <workItem from="1586637636074" duration="1194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4031000" />
+    <option name="totallyTimeSpent" value="4275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
