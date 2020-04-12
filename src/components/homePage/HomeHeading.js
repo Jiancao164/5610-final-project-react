@@ -2,9 +2,9 @@ import React, {Component} from 'react'
 import {Link} from "react-router-dom";
 import MoviePrototype from "./MoviePrototype";
 import NewMovies from "./NewMovies";
-import {profile} from "../services/UserService";
-import {findReviewsByUser} from "../services/ReviewService";
-import {findMovieById} from "../services/MovieService";
+import {profile} from "../../services/UserService";
+import {findReviewsByUser} from "../../services/ReviewService";
+import {findMovieById} from "../../services/MovieService";
 import ReviewedMovie from "./ReviewedMovie";
 
 class HomeHeading extends Component{

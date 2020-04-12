@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {findUserByUsername, profile} from "../services/UserService";
+import {findUserByUsername, profile} from "../../services/UserService";
 import AnonymousReview from "./AnonymousReview";
 import {Link} from "react-router-dom";
 

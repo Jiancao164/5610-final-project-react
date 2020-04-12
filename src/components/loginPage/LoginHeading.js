@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from "react-router-dom";
-import {login} from "../services/UserService";
+import {login} from "../../services/UserService";
 
 class LoginHeading extends Component{
     constructor(props) {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import {findUserById, findUserByReview, profile} from "../services/UserService";
+import {findUserById, findUserByReview, profile} from "../../services/UserService";
 import {Link} from "react-router-dom";
-import {deleteReview, findAllReviews, post} from "../services/ReviewService";
+import {deleteReview, findAllReviews, post} from "../../services/ReviewService";
 
 class NewPost extends Component{
     constructor(props){

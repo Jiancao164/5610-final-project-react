@@ -1,5 +1,5 @@
 import React from "react";
-import {profile, logout, update} from "../services/UserService";
+import {profile, logout, update} from "../../services/UserService";
 import {Link} from "react-router-dom";
 
 export default class Profile extends React.Component {

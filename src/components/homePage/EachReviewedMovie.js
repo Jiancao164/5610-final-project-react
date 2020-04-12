@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {findMovieById} from "../services/MovieService";
+import {findMovieById} from "../../services/MovieService";
 import {Link} from "react-router-dom";
 
 class EachReviewedMovie extends Component{

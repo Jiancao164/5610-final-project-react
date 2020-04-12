@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {findReviewsByUser} from "../services/ReviewService";
+import {findReviewsByUser} from "../../services/ReviewService";
 import AnonymousEachReviewedMovie from "./AnonymousEachReviewedMovie";
 
 export default class AnonymousReview extends Component{
