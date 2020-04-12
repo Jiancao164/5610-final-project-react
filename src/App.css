@@ -115,3 +115,6 @@ textarea {
 .new-movie-width {
   max-width: 1050px;
 }
+.card-body-release-time {
+  color: gray;
+}
