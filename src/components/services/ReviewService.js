@@ -1,4 +1,4 @@
-import {HEROKU_SERVER_URL} from "../common/constant";
+import {HEROKU_SERVER_URL} from "../../common/constant";
 
 export const post = (review, uid) =>
     fetch(`${HEROKU_SERVER_URL}/users/${uid}/post`, {

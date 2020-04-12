@@ -1,4 +1,4 @@
-import {HEROKU_SERVER_URL} from "../common/constant";
+import {HEROKU_SERVER_URL} from "../../common/constant";
 
 export const logout = () =>
     fetch(`${HEROKU_SERVER_URL}/logout`, {

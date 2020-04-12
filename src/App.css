@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+/*.card-img-top {*/
+  /*height: 250px;*/
+  /*width: 170px;*/
+/*}*/
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -104,4 +108,10 @@ textarea {
 }
 .now-playing {
   color: sandybrown;
+}
+.new-movie-post {
+  height: 250px;
+}
+.new-movie-width {
+  max-width: 1050px;
 }

@@ -92,6 +92,28 @@ class HomeHeading extends Component{
                         {!this.state.profile.username && <Link to={`/login`}>Login</Link>}
                     </div>
                 </nav>
+
+
+                {/*<div className={"container"}>*/}
+                    {/*<div className="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-5">*/}
+                        {/*<div className={"col mb-4"}>*/}
+                            {/*<div className="card h-100">*/}
+                                {/*<img src="..." className="card-img-top" alt="..."/>*/}
+                                {/*<div className="card-body">*/}
+                                    {/*<h5 className="card-title">Card title</h5>*/}
+                                    {/*<p className="card-text">*/}
+                                        {/*<small className="text-muted">Last updated 3 mins ago</small>*/}
+                                    {/*</p>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
+                {/*</div>*/}
+
+
+
+
+
                 {this.state.profile.username &&
                 <div className={"row"}>
                     <div className={"col-8"}>
@@ -116,11 +138,11 @@ class HomeHeading extends Component{
                     </div>
                 </div>}
                 {!this.state.profile.username &&
-                <div className={"container"}>
+                <div className={"container new-movie-width"}>
+                    {this.props.match.path === `/` &&
+                    <NewMovies/>
+                    }
                     <div className={"col-11"}>
-                        {this.props.match.path === `/` &&
-                        <NewMovies/>
-                        }
                         {this.props.match && this.props.match.params && this.props.match.params.latestTitleSearch &&
                         <MoviePrototype
                             history = {this.props.history}
