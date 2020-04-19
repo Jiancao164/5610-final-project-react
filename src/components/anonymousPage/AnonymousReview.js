@@ -30,10 +30,10 @@ export default class AnonymousReview extends Component{
                     <div>
                         <div className={"card"}>
                             <div className={"row"}>
-                                <div className={"col-3"}>
+                                <div className={"col-3 col-sm-4"}>
                                     <AnonymousEachReviewedMovie key={review.movieId} mid={review.movieId} review={review}/>
                                 </div>
-                                <div className={"col-9"}>
+                                <div className={"col-9 col-sm-8"}>
                                     <p>
                                         <br/>
                                         {review.review}
