@@ -16,9 +16,23 @@ export default class SignUp extends Component{
 
     }
 
-    handleRegister = (user) =>
-        register(user)
-            .then(user => this.props.history.push('/profile'))
+    handleRegister = (user) => {
+        if (user.password !== user.verifyPassword) {
+            alert("Password not matched")
+        } else {
+            register(user)
+                .then(user => this.props.history.push('/profile'));
+        }
+    };
+
+    // validatePassword = (user) => {
+    //   if (user.password !== user.verifyPassword) {
+    //       alert("Password not matched")
+    //   } else {
+    //       register(user)
+    //           .then(user => this.props.history.push('/profile'));
+    //   }
+    // };
 
     render() {
         return (
