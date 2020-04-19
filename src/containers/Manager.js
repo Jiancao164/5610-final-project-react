@@ -7,6 +7,7 @@ import MovieDetails from "../components/detailPage/MovieDetails";
 import SignUp from "../components/loginPage/SignUp";
 import Profile from "../components/loginPage/Profile";
 import AnonymousUser from "../components/anonymousPage/AnonymousUser";
+import Privacy from "../components/privacyPage/Privacy";
 
 class Manager extends Component{
     render() {
@@ -20,11 +21,15 @@ class Manager extends Component{
                             <HomeHeading
                                 {...props}/>
                         }/>
-
+                    <Route
+                        path={"/privacy"}
+                        exact={true}
+                        component={Privacy}/>
                     <Route
                         path={"/movies/:latestTitleSearch"}
                         exact={true}
                         component={HomeHeading}/>
+
                     <Route
                         path="/login"
                         exact={true}

@@ -22,7 +22,7 @@ export default class NewMovies extends React.Component {
                 <br/>
 
                 <h2 className={"now-playing"}>Now Playing In Theaters</h2>
-                <div className={"row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 "}>
+                <div className={"row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 "}>
                     {
                         this.state.movies && this.state.movies.map(movie =>
                             <div key={movie.id} className="col mb-4">
