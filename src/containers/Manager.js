@@ -57,7 +57,7 @@ class Manager extends Component{
                                 history={props.history}/>
                         }/>
                     <Route
-                        path={`/movies/title/:movie_id`}
+                        path={`/details/:movie_id`}
                         exact={true}
                         component={MovieDetails}/>
                 </Router>

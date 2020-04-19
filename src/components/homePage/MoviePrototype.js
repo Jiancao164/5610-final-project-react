@@ -49,7 +49,7 @@ export default class MoviePrototype extends React.Component {
                                 {movie.poster_path && <img className={"thumbnail"}
                                       src={movie.poster_path && `https://image.tmdb.org/t/p/w500${movie.poster_path}`}/>
                                 }
-                                <Link to={`/movies/title/${movie.id}`}>
+                                <Link to={`/details/${movie.id}`}>
                                     {movie.title || movie.name}
                                 </Link>
                             </li>

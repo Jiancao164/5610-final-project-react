@@ -27,7 +27,7 @@ class EachReviewedMovie extends Component{
         return (
             <div>
                 <div className="col-sm-4">
-                    <Link className="card-title " to={`/movies/title/${this.state.movie.id}`}>
+                    <Link className="card-title " to={`/details/${this.state.movie.id}`}>
                         {!this.state.movie.poster_path && <img className={"card-img-top thumbnail-post reviewed-post"} src={!this.state.movie.poster_path && `https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-38-picture-grey-c2ebdbb057f2a7614185931650f8cee23fa137b93812ccb132b9df511df1cfac.svg`}/>}
                         {this.state.movie.poster_path && <img className={"card-img-top thumbnail-post reviewed-post"} src={this.state.movie.poster_path && `https://image.tmdb.org/t/p/w500${this.state.movie.poster_path}`}/>}
                     </Link>
