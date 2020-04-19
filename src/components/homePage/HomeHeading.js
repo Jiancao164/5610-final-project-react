@@ -94,37 +94,41 @@ class HomeHeading extends Component{
                 </nav>
 
                 {this.state.profile.username &&
-                <div className={"row"}>
                     <div>
-                        {this.props.match && this.props.match.params && this.props.match.params.latestTitleSearch &&
-                        <MoviePrototype
-                            history = {this.props.history}
-                            latestTitleSearch={this.props.match.params.latestTitleSearch}/>}
-                    </div>
-                    <div>
-                        {this.props.match.path === `/` &&
-                            <div>
-                                <div className={"col-8"}>
+                        <div>
+                            {this.props.match && this.props.match.params && this.props.match.params.latestTitleSearch &&
+                            <MoviePrototype
+                                history = {this.props.history}
+                                latestTitleSearch={this.props.match.params.latestTitleSearch}/>}
+                            {this.props.match.path === `/` && <div className={"row"}>
+                                <div>
                                     {this.props.match.path === `/` &&
-                                    <NewMovies/>
-                                    }
-                                </div>
-                                <div className={"col-4"}>
-                                    <br/>
-                                    {!this.state.profile.username}
-                                    {this.state.profile.username && this.props.match.path === `/` &&
                                     <div>
-                                        <h2 className={"now-playing"}>Movies Reviewed</h2>
-                                        <ReviewedMovie reviews={this.state.reviews}/>
+                                        <div className={"col-8"}>
+                                            {this.props.match.path === `/` &&
+                                            <NewMovies/>
+                                            }
+                                        </div>
+                                        <div className={"col-4"}>
+                                            <br/>
+                                            {!this.state.profile.username}
+                                            {this.state.profile.username && this.props.match.path === `/` &&
+                                            <div>
+                                                <h2 className={"now-playing"}>Movies Reviewed</h2>
+                                                <ReviewedMovie reviews={this.state.reviews}/>
+                                            </div>
+                                            }
+
+                                        </div>
                                     </div>
                                     }
-
                                 </div>
-                            </div>
-                        }
-                    </div>
 
-                </div>}
+                            </div>}
+                        </div>
+
+                    </div>}
+                }
                 {!this.state.profile.username &&
                 <div className={"container new-movie-width"}>
                     {this.props.match.path === `/` &&
