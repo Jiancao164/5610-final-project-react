@@ -18,6 +18,7 @@ export default class SignUp extends Component{
 
     handleRegister = (user) => {
         if (user.password !== user.verifyPassword) {
+            console.log("96999");
             alert("Password not matched")
         } else {
             register(user)
