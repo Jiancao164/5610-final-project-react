@@ -67,13 +67,13 @@ class HomeHeading extends Component{
                         value={this.state.titleSearch}
                         onKeyDown={(e) =>  {
                             if (e.keyCode === 13) {
-                                this.props.history.push(`/movies/${this.state.titleSearch}`)
+                                this.props.history.push(`/search/${this.state.titleSearch}`)
                             }
                         }}
                         className="form-control col-7 mr-sm-2" type="search" placeholder="Search Movie Title"
                            aria-label="Search"/>
                     <button
-                        onClick={() => this.props.history.push(`/movies/${this.state.titleSearch}`)}
+                        onClick={() => this.props.history.push(`/search/${this.state.titleSearch}`)}
                         className="btn btn-outline-success my-2 my-sm-0"
                         type="submit">Search</button>
 

@@ -26,7 +26,7 @@ class Manager extends Component{
                         exact={true}
                         component={Privacy}/>
                     <Route
-                        path={"/movies/:latestTitleSearch"}
+                        path={"/search/:latestTitleSearch"}
                         exact={true}
                         component={HomeHeading}/>
 
