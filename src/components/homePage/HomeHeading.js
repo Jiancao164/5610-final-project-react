@@ -95,7 +95,7 @@ class HomeHeading extends Component{
 
                 {this.state.profile.username &&
                     <div>
-                        <div>
+                        <div className={"container"}>
                             {this.props.match && this.props.match.params && this.props.match.params.latestTitleSearch &&
                             <MoviePrototype
                                 history = {this.props.history}
