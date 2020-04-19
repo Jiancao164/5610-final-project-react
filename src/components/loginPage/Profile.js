@@ -24,11 +24,16 @@ export default class Profile extends React.Component {
     }
 
     update = (profile) => {
-        update(profile);
-        this.setState({
-            profile: profile
-        });
-        alert("Updated successfully")
+        if (profile.email === '' || profile.email.includes("@")) {
+            update(profile);
+            this.setState({
+                profile: profile
+            });
+            alert("Updated successfully")
+        } else {
+            alert("Email address error")
+        }
+
     };
 
     logout = () =>
