@@ -57,7 +57,7 @@ class HomeHeading extends Component{
         return (
             <div className={"homepage"}>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <Link to={`/`} className={"col-2"}>
+                    <Link to={`/`} className={"col-xl-2 col-lg-2 col-md-2"}>
                         <img className={"douban navbar-brand "} src={"https://upload.wikimedia.org/wikipedia/commons/a/aa/Douban_logo.svg"}/>
                     </Link>
                     <input

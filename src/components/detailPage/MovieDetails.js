@@ -36,7 +36,7 @@ export default class MovieDetails extends React.Component {
                     {/*<h1 className="navbar-brand col-7">{this.state.movie && this.state.movie.title}</h1>*/}
                 </nav>
                 <div className={"row"}>
-                    <div className={"col-9"}>
+                    <div className={"col-sm-12 col-md-12 col-xl-9"}>
                         <br/>
                         {this.state.moreInfo && this.state.moreInfo.results && this.state.moreInfo.results[0] &&
                         <iframe src={`https://www.youtube.com/embed/${this.state.moreInfo.results[0].key}`}
@@ -46,7 +46,7 @@ export default class MovieDetails extends React.Component {
                             movieId={this.props.match.params.movie_id}
                             movie={this.state.movie}/>
                     </div>
-                    <div className={"col-3"}>
+                    <div className={"col-md-5 col-xl-3"}>
                         {this.state.movie &&
                         <div>
                             <br/>
