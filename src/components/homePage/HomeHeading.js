@@ -107,7 +107,7 @@ class HomeHeading extends Component{
                     <div className={"col-4"}>
                         <br/>
                         {!this.state.profile.username}
-                        {this.state.profile.username &&
+                        {this.state.profile.username && this.props.match.path === `/` &&
                         <div>
                             <h2 className={"now-playing"}>Movies Reviewed</h2>
                             <ReviewedMovie reviews={this.state.reviews}/>
