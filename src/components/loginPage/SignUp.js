@@ -17,12 +17,11 @@ export default class SignUp extends Component{
     }
 
     handleRegister = (user) => {
-        if (user.password !== user.verifyPassword) {
-            console.log("96999");
-            alert("Password not matched")
-        } else {
+        if (user.password === user.verifyPassword) {
             register(user)
                 .then(user => this.props.history.push('/profile'));
+        } else {
+            alert("Password not matched")
         }
     };
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b01a383f-084a-4747-aeb4-62c297c74ab5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/loginPage/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginPage/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +196,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/loginPage/SignUp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="193">
               <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -329,7 +329,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587326310055" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587327482065" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wbdv-5610-sp20-jannunzi-server-java-44460d68f2e2004a6d3a31cfe6a8de9130667aef" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -378,12 +378,12 @@
       <workItem from="1587058208487" duration="2398000" />
       <workItem from="1587111312451" duration="411000" />
       <workItem from="1587164891298" duration="33000" />
-      <workItem from="1587285400605" duration="9032000" />
+      <workItem from="1587285400605" duration="9693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31882000" />
+    <option name="totallyTimeSpent" value="32543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -586,7 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/loginPage/SignUp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="193">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
