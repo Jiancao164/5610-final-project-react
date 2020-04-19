@@ -96,13 +96,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="110" />
-          <entry key="js" value="1087" />
+          <entry key="js" value="1098" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="110" />
-          <entry key="JavaScript" value="1087" />
+          <entry key="JavaScript" value="1098" />
         </counts>
       </usages-collector>
     </session>
@@ -198,8 +198,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/homePage/HomeHeading.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="101" column="70" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="70" />
+            <state relative-caret-position="156">
+              <caret line="101" column="92" selection-start-line="101" selection-start-column="92" selection-end-line="101" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -361,7 +361,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587335226040" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587335526580" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wbdv-5610-sp20-jannunzi-server-java-44460d68f2e2004a6d3a31cfe6a8de9130667aef" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -410,12 +410,12 @@
       <workItem from="1587058208487" duration="2398000" />
       <workItem from="1587111312451" duration="411000" />
       <workItem from="1587164891298" duration="33000" />
-      <workItem from="1587285400605" duration="16028000" />
+      <workItem from="1587285400605" duration="16282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38878000" />
+    <option name="totallyTimeSpent" value="39132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +428,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23221476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -650,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/homePage/HomeHeading.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="101" column="70" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="70" />
+        <state relative-caret-position="156">
+          <caret line="101" column="92" selection-start-line="101" selection-start-column="92" selection-end-line="101" selection-end-column="92" />
         </state>
       </provider>
     </entry>
