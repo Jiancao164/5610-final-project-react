@@ -134,9 +134,11 @@ class HomeHeading extends Component{
                 </div>
                 }
                 <div className={"float-right footnote"}>
+                    {this.props.match.path === `/` &&
                     <a href={"/privacy"}>
                         Privacy Policy
                     </a>
+                    }
                 </div>
             </div>
         )
