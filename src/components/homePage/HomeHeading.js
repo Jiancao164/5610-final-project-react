@@ -95,14 +95,16 @@ class HomeHeading extends Component{
 
                 {this.state.profile.username &&
                 <div className={"row"}>
-                    <div className={"col-8"}>
-                        {this.props.match.path === `/` &&
-                        <NewMovies/>
-                        }
+                    <div>
                         {this.props.match && this.props.match.params && this.props.match.params.latestTitleSearch &&
                         <MoviePrototype
                             history = {this.props.history}
                             latestTitleSearch={this.props.match.params.latestTitleSearch}/>}
+                    </div>
+                    <div className={"col-8"}>
+                        {this.props.match.path === `/` &&
+                        <NewMovies/>
+                        }
                     </div>
                     <div className={"col-4"}>
                         <br/>
