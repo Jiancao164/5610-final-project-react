@@ -30,7 +30,7 @@ export default class MovieDetails extends React.Component {
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
 
                     <Link to={`/`}>
-                        <img className={"douban col-3"} src={"https://upload.wikimedia.org/wikipedia/commons/a/aa/Douban_logo.svg"}/>
+                        <img className={"douban"} src={"https://upload.wikimedia.org/wikipedia/commons/a/aa/Douban_logo.svg"}/>
                     </Link>
 
                     {/*<h1 className="navbar-brand col-7">{this.state.movie && this.state.movie.title}</h1>*/}
