@@ -20,13 +20,15 @@ export const findAllReviews = (mid) =>
     }).then(response => response.json());
 
 export const findReviewsByUser = (uid) =>
-    fetch(`${HEROKU_SERVER_URL}/users/${uid}/reviews`, {
-        method: 'GET',
-        headers: {
-            'content-type': 'application/json'
-        },
-        credentials: "include"
-    }).then(response => response.json()).catch(error => null);
+    if (uid !== undefined) {
+        fetch(`${HEROKU_SERVER_URL}/users/${uid}/reviews`, {
+            method: 'GET',
+            headers: {
+                'content-type': 'application/json'
+            },
+            credentials: "include"
+        }).then(response => response.json()).catch(error => null);
+    }
 
 export const deleteReview = (rid) =>
     fetch(`${HEROKU_SERVER_URL}/reviews/${rid}`, {
