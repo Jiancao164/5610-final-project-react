@@ -26,7 +26,7 @@ export const findReviewsByUser = (uid) =>
             'content-type': 'application/json'
         },
         credentials: "include"
-    }).then(response => response.json());
+    }).then(response => response.json()).catch(error => null);
 
 export const deleteReview = (rid) =>
     fetch(`${HEROKU_SERVER_URL}/reviews/${rid}`, {
