@@ -32,12 +32,15 @@ class HomeHeading extends Component{
                 profile: profile
             })).catch(ErrorEvent => ErrorEvent);
 
-        await findReviewsByUser(this.state.profile.id)
-            .then(reviews => this.setState({
-                reviews: reviews
-            }));
+        if (this.state.profile.id !== undefined) {
+            await findReviewsByUser(this.state.profile.id)
+                .then(reviews => {this.setState({
+                    reviews: reviews
+                })});
 
-        await findReviewsByUser(this.state.profile.id)
+            await findReviewsByUser(this.state.profile.id)
+        }
+
 
 
     };

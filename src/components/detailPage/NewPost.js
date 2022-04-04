@@ -18,10 +18,12 @@ class NewPost extends Component{
             .then(profile => this.setState({
                 profile: profile
             })).catch(ErrorEvent => ErrorEvent);
+
         findAllReviews(this.props.movieId)
             .then(reviews => this.setState({
                 allReviews : reviews
-            }))
+            })).catch(ErrorEvent => ErrorEvent);
+
     }
     postReview =  async (review, uid) => {
         await post(review, uid);

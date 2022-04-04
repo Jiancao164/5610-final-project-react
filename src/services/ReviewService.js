@@ -10,17 +10,18 @@ export const post = (review, uid) =>
         credentials: "include"
     }).then(response => response.json());
 
-export const findAllReviews = (mid) =>
-    fetch(`${HEROKU_SERVER_URL}/movies/${mid}/reviews`, {
+export const findAllReviews = (mid) => {
+    return fetch(`${HEROKU_SERVER_URL}/movies/${mid}/reviews`, {
         method: 'GET',
         headers: {
             'content-type': 'application/json'
         },
         credentials: "include"
     }).then(response => response.json());
+}
 
 export const findReviewsByUser = (uid) => {
-    if (uid !== undefined) {
+    if (uid === undefined) {
         return null
     }
     return fetch(`${HEROKU_SERVER_URL}/users/${uid}/reviews`, {
