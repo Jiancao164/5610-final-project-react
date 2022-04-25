@@ -26,7 +26,7 @@ export const register = (user) =>
             'content-type': 'application/json'
         },
         credentials: "include"
-    }).then(response => response.json());
+    }).then(response => response.json()).catch(ErrorEvent => ErrorEvent);
 
 
 
@@ -38,7 +38,7 @@ export const update = (user) =>
             'content-type': 'application/json'
         },
         credentials: "include"
-    }).then(response => response.json());
+    }).then(console.log(user));
 
 
 export const login = (user) =>
