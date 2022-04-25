@@ -24,7 +24,7 @@ export default class Profile extends React.Component {
     }
 
     update = (profile) => {
-        if (profile.email === '') {
+        if (true) {
             update(profile);
             this.setState({
                 profile: profile
