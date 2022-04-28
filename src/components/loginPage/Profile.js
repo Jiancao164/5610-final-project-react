@@ -20,7 +20,6 @@ export default class Profile extends React.Component {
                 .then(profile => this.setState({
                     profile: profile
                 }))
-
     }
 
     update = (profile) => {
@@ -55,11 +54,13 @@ export default class Profile extends React.Component {
                     <div className="form-group row">
                         <label htmlFor="username" className="col-sm-2 col-form-label">
                             Username </label>
+
                         <div className="col-sm-10">
                             <input className="form-control wbdv-field wbdv-username"
                                    id="username"
                                    readOnly
                                    value={this.state.profile.username}/>
+
                         </div>
                     </div>
 

@@ -38,7 +38,7 @@ export const update = (user) =>
             'content-type': 'application/json'
         },
         credentials: "include"
-    }).then(console.log(user));
+    }).then(response => response.json());
 
 
 export const login = (user) =>
