@@ -14,7 +14,7 @@ class NewPost extends Component{
         }
     }
     componentDidMount() {
-        profile()
+        profile(profile.username)
             .then(profile => this.setState({
                 profile: profile
             })).catch(ErrorEvent => ErrorEvent);

@@ -7,11 +7,20 @@ export const logout = () =>
         credentials: "include"
     })
 
-export const profile = () =>
-    fetch(`${HEROKU_SERVER_URL}/profile`, {
+// export const profile = () =>
+//     fetch(`${HEROKU_SERVER_URL}/profile`, {
+//         method: 'GET',
+//         credentials: "include"
+//     }).then(response => console.log(response.json())).catch(ErrorEvent => ErrorEvent);
+
+export const profile = () => {
+
+
+    return fetch(`${HEROKU_SERVER_URL}/profile`, {
         method: 'GET',
         credentials: "include"
     }).then(response => response.json()).catch(ErrorEvent => ErrorEvent);
+}
 
 export const findUserByUsername = (username) =>
     fetch(`${HEROKU_SERVER_URL}/profile/${username}`, {
