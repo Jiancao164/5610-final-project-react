@@ -1,4 +1,5 @@
 import {HEROKU_SERVER_URL} from "../common/constant";
+import {report} from "npm/lib/utils/explain-eresolve";
 
 export const logout = () =>
     fetch(`${HEROKU_SERVER_URL}/logout`, {
@@ -33,7 +34,7 @@ export const register = (user) =>
 export const update = (user) =>
     fetch(`${HEROKU_SERVER_URL}/update`, {
         method: 'PUT',
-        body: JSON.stringify(user),
+        body: JSON.stringify(console.log(user)),
         headers: {
             'content-type': 'application/json'
         },

@@ -6,12 +6,12 @@ export default class Profile extends React.Component {
 
     state = {
         profile: {
-            username: '',
-            email: '',
-            firstName: '',
-            lastName: '',
-            phone: '',
-            role: ''
+                username: '',
+                email: '',
+                firstName: '',
+                lastName: '',
+                phone: '',
+                role: ''
         }
     };
 
@@ -20,14 +20,17 @@ export default class Profile extends React.Component {
                 .then(profile => this.setState({
                     profile: profile
                 }))
+        console.log(this.state.profile)
     }
 
     update = (profile) => {
         if (true) {
-            update(profile);
             this.setState({
                 profile: profile
             });
+            console.log(this.state.profile)
+            console.log("___")
+            update(profile);
             alert("Updated successfully")
         } else {
             alert("Email address error")
